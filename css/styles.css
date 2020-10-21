@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #40514E;
+}
+
+hr {
+    border: 5px dotted darkgrey;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+
+
+}
+
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+#intro {
+  width: 30%;
+}
+
+p {
+  margin: 25px auto 0 auto;
+  line-height: 2;
+}
+
+.intro {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+#underline {
+  text-decoration: underline;
+}
+.top-cloud {
+  position:absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-container {
+  background-color: #e8ffff;
+  position:relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 50px 0;
+}
+
+.bottom-container {
+  background-color: #e8ffff;
+  padding: 40px;
+}
+
+.bottom-container>p {
+  color: #66BFBF;
+  text-decoration: none;
+}
+
+#profile {
+  margin: 50px;
+  width: 150px;
+}
+
+#money {
+  padding: 5px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+#computer {
+  padding: 5px;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-section {
+  font-size: 20px;
+}
+
+a {
+  color: #11999E;
+}
+
+a:hover {
+  border-bottom: solid 3px #66BFBF;
+}
+
+.skills {
+  color: #66BFBF;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row>p {
+  color: #40514E;
+}
